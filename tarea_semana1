@@ -1,0 +1,16 @@
+def figura(med1, med2):
+    if med1 == med2:
+        return 'cuadrado'
+    else:
+       return 'rectángulo' 
+
+print(figura(1,1))
+print(figura(2,2))
+print(figura(3,3))
+print(figura(4,4))
+print(figura(5,5))
+print(figura(1,2))
+print(figura(2,3))
+print(figura(3,4))
+print(figura(4,5))
+print(figura(5,6))
